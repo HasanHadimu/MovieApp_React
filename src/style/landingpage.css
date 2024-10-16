@@ -1,0 +1,48 @@
+.myBG{
+    height: 100vh;
+    background: url("../assets/images/bg/main.jpg");
+    background-size: cover;
+}
+
+.intro{
+    height: 300px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    text-align: center;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 5px 5px black;
+    latter-spacing: 4px;
+}
+
+
+.tranding{
+    height: auto;
+    background: url("../assets/images/bg/scifi.jpg");
+    background-size: cover;
+}
+
+.movieImage{
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+}
+
+.movieWrapper{
+
+}
+
+.images{
+    height: 500px;
+}
+
+.superhero{
+    height: auto;
+    background: url("../assets/images/bg/romance.jpg");
+    background-size: cover;
+}

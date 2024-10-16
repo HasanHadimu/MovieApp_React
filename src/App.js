@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import NavigationBar from "./components/NavigationBar";
+import "./style/landingpage.css";
+import Intro from "./components/Intro";
+import Tranding from "./components/Tranding"
+import SuperHero from "./components/SuperHero";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* Intro section */}
+      <div className="myBG">
+        <NavigationBar />
+        <Intro />
+      </div>
+      {/* intro section */}
+
+      {/* Tranding Section */}
+
+      <div className="tranding">
+        <Tranding />
+      </div>
+
+      {/* end of Tranding Section */}
+      {/* Tranding Section */}
+
+      <div className="superhero">
+        <SuperHero />
+      </div>
+
+      {/* end of Tranding Section */}
     </div>
   );
 }
